@@ -255,6 +255,7 @@ co
 cr
 hu
 ch
+ic
 
 #------------------------------------------------------------------------------
 # Switzerland
@@ -264,3 +265,12 @@ app.openfoodswitzerland.ch ansible_host=195.15.219.220
 
 [ch:children]
 ch_prod
+
+#------------------------------------------------------------------------------
+# Canary Islands
+
+[ic_prod]
+canarias.agricultura.red
+
+[ic:children]
+ic_prod

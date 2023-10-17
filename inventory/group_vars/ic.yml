@@ -1,0 +1,18 @@
+---
+# See https://github.com/openfoodfoundation/ofn-install/wiki/Setup for more info
+checkout_zone: Europe
+country_code: IC
+currency: EUR
+locale: es
+language: es_ES.UTF-8
+language_packages:
+  - language-pack-es-base
+l10n_repo: https://github.com/canariasagricultura/l10n_ic.git
+timezone: Atlantic/Canary
+
+# Used for the LetsEncrypt email setting
+developer_email: dev@agricultura.red
+
+users_sysadmin:
+  #  - '{{ core_devs }}'
+  - manuel
